@@ -6,4 +6,5 @@ exclude:
   global:
     # Exclude files folder from scan
     - ‎app.js
+    - tests/**
 
