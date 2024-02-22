@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+# SAST_EXCLUDED_PATHS: spec, test, tests, tmp, assets, logs, refactor, vendor, */public/js
+exclude:
+  global:
+    - &case_insensitive "**/test"
+    - *case_insensitive
+    - "**/tests"
+    - "**/spec"
+    - "**/tmp"
+    - "**/assets"
+    - "**/logs"
+    - "**/refactor"
+    - "**/vendor"
+    - "**/public/js"
+version: v1.25.0
+ignore: {}
+patch: {}
