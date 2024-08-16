@@ -13,3 +13,5 @@ jobs:
      - snyk/scan:
           token-variable: SNYK_TOKEN
           fail-on-issues: false
+          project: ${CIRCLE_PROJECT_REPONAME}/${CIRCLE_BRANCH}  # use this to save the snapshot under specific names.
+          organization: "ddfcb5c8-66bc-4770-9df0-1709ca920728"                   # save reports under a specific Snyk organization
